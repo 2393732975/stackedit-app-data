@@ -2,62 +2,35 @@
 
 ```
 import tensorflow
-
 import keras
-
 import numpy as np
-
 import matplotlib.pyplot as plt
-
 from tensorflow.python.keras.models import Sequential
-
 from tensorflow.python.keras.layers import Dense
 
-  
-
 # 生成一个数据
-
 x_data =np.random.rand(100)
-
 noise = np.random.normal(0,0.01,x_data.shape)
-
 y_data = x_data*0.1+0.3 +noise
 
-  
 
 #显示随机点
-
 #plt.scatter(x_data,y_data)
-
 #plt.show()
 
-  
-
 # 构建一个顺序模型
-
 model = Sequential()
 
-  
-
 #在模型中添加全连接层
-
-model.add(Dense(units=1,input_dim=1))
-
-  
+model.add(Dense(units=1,input_dim=1)) 
 
 #sgd:随机梯度下降法 ——————优化器
-
 #mse:均方误差 ————损失函数
-
 model.compile(optimizer='sgd',loss='mse')
 
-  
-
 #训练
-
 for step in range(3001):
-
-cost = model.train_on_batch(x_data,y_data)
+	cost = model.train_on_batch(x_data,y_data)
 
   
 
@@ -88,5 +61,5 @@ plt.show()
 
 ## 非线性回归
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU1MjUwNzVdfQ==
+eyJoaXN0b3J5IjpbMTI5NDE3Mjk2MV19
 -->
