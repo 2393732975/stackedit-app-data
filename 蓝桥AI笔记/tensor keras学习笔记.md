@@ -52,6 +52,12 @@ plt.show()
 model.add(Dense(units=10,input_dim=1)) 
 model.add(Dense(units=1)) 
 ```
+>第二：激活函数
+```
+# 除了第一层必须有输入，后面的可以无输入，因为默认是前一层的units（输出）
+model.add(Dense(units=10,input_dim=1)) 
+model.add(Dense(units=1)) 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI1ODkxNTAsLTI5ODY2NjQ4NV19
+eyJoaXN0b3J5IjpbNTg1MjYxNjAwLC0yOTg2NjY0ODVdfQ==
 -->
