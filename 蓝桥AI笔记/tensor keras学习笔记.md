@@ -31,35 +31,20 @@ model.compile(optimizer='sgd',loss='mse')
 #训练
 for step in range(3001):
 	cost = model.train_on_batch(x_data,y_data)
-
-  
-
-if step%500==0:
-
-print('cost:',cost)
-
-  
-
+	if step%500==0：
+		print('cost:',cost)
+		
 #打印权值和偏置值
-
 W,b=model.layers[0].get_weights()
-
 print('W:',W,'b:',b)
 
-  
-
-y_pre= model.predict(x_data)
-
-  
-
+y_pre= model.predict(x_data)  
 plt.scatter(x_data,y_data)
-
 plt.plot(x_data, y_pre, 'r-', lw=3)
-
 plt.show()
 ```
 
 ## 非线性回归
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDE3Mjk2MV19
+eyJoaXN0b3J5IjpbLTI5ODY2NjQ4NV19
 -->
