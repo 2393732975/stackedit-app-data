@@ -47,10 +47,11 @@ plt.show()
 ## 非线性回归
 与线性回归不同的是：
 >第一：不能只加一层Dense
->```
-model.add(Dense(units=1,input_dim=1)) 
-
->```
+```
+# 除了第一层必须有输入，后面的可以无输入，因为默认是前一层的units（输出）
+model.add(Dense(units=10,input_dim=1)) 
+model.add(Dense(units=1)) 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODkxMzg0OTUsLTI5ODY2NjQ4NV19
+eyJoaXN0b3J5IjpbLTE0NTI1ODkxNTAsLTI5ODY2NjQ4NV19
 -->
