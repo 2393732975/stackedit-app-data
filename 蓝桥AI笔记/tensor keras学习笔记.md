@@ -45,6 +45,12 @@ plt.show()
 ```
 
 ## 非线性回归
+与线性回归不同的是：
+>第一：不能只加一层Dense
+>```
+model.add(Dense(units=1,input_dim=1)) 
+
+>```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODY2NjQ4NV19
+eyJoaXN0b3J5IjpbLTEyODkxMzg0OTUsLTI5ODY2NjQ4NV19
 -->
