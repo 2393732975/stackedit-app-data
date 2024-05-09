@@ -58,6 +58,10 @@ model.add(Dense(units=1))
 model.add(Dense(units=10,input_dim=1)) 
 model.add(Dense(units=1)) 
 ```
+>第三：sgd优化器得换成其他的，如adam，或者改变学习率
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1MjYxNjAwLC0yOTg2NjY0ODVdfQ==
+eyJoaXN0b3J5IjpbMTM5MzUzMTY3NCw1ODUyNjE2MDAsLTI5OD
+Y2NjQ4NV19
 -->
