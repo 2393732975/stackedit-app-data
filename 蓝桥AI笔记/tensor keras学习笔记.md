@@ -85,9 +85,13 @@ model.add(Dense(units=1))
 
 2. eraly stopping 
 ![输入图片说明](/imgs/2024-05-10/ernDhVAZMor8tDAv.png)
-3. 
+3. Dropout
+![输入图片说明](/imgs/2024-05-10/FG91cqMcUWSqfI8C.png)
+训练的时候随机关掉一些神经元
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTAyMDc2NSwxNzY2ODExMjQyLDE0Mj
+eyJoaXN0b3J5IjpbMTc3ODk2MTkzMywxNzY2ODExMjQyLDE0Mj
 Q1NTIzNjMsMTM5MzUzMTY3NCw1ODUyNjE2MDAsLTI5ODY2NjQ4
 NV19
 -->
