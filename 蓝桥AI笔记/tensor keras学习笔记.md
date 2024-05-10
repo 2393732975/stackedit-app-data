@@ -103,11 +103,15 @@ from keras.layers import Dropout
 ![输入图片说明](/imgs/2024-05-10/TDlgdARfxlF9Ba7m.png)
 
 正则化应用：
+```
+from keras.regularizers import l2
+# 两种：l1和l2
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzEyMzM1MCw0NjE4MDIyOTQsMTc2Nj
-gxMTI0MiwxNDI0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAw
-LC0yOTg2NjY0ODVdfQ==
+eyJoaXN0b3J5IjpbNTAxOTE2NzA3LDQ2MTgwMjI5NCwxNzY2OD
+ExMjQyLDE0MjQ1NTIzNjMsMTM5MzUzMTY3NCw1ODUyNjE2MDAs
+LTI5ODY2NjQ4NV19
 -->
