@@ -89,9 +89,13 @@ model.add(Dense(units=1))
 ![输入图片说明](/imgs/2024-05-10/FG91cqMcUWSqfI8C.png)
 训练的时候随机关掉一些神经元
 
+4. 正则化
+![输入图片说明](/imgs/2024-05-10/XqXKL2LjfGXiJBdY.png)
+L2正则化用得多
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODk2MTkzMywxNzY2ODExMjQyLDE0Mj
-Q1NTIzNjMsMTM5MzUzMTY3NCw1ODUyNjE2MDAsLTI5ODY2NjQ4
-NV19
+eyJoaXN0b3J5IjpbLTE2MDEyMDA5MjIsMTc2NjgxMTI0MiwxND
+I0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0
+ODVdfQ==
 -->
