@@ -96,10 +96,12 @@ L2正则化用得多
 “拉莫大”对模型的影响
 ![输入图片说明](/imgs/2024-05-10/XR2gG6mc7zdar9iN.png)
 
-dropou
+dropout 应用：（下图中为关掉40%的神经元）
 ![输入图片说明](/imgs/2024-05-10/TDlgdARfxlF9Ba7m.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzM3NTc5NCw0NjE4MDIyOTQsMTc2Nj
-gxMTI0MiwxNDI0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAw
-LC0yOTg2NjY0ODVdfQ==
+eyJoaXN0b3J5IjpbLTE5NDU5NzU0MDAsNDYxODAyMjk0LDE3Nj
+Y4MTEyNDIsMTQyNDU1MjM2MywxMzkzNTMxNjc0LDU4NTI2MTYw
+MCwtMjk4NjY2NDg1XX0=
 -->
