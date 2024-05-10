@@ -83,8 +83,9 @@ model.add(Dense(units=1))
 1. 增大数据集
 ![输入图片说明](/imgs/2024-05-10/BBnEzGwz6PsNZO65.png)
 
-3. 
+2. eraly stopping 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjgxMTI0MiwxNDI0NTUyMzYzLDEzOT
-M1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0ODVdfQ==
+eyJoaXN0b3J5IjpbLTE5NjI4NzU1NTYsMTc2NjgxMTI0MiwxND
+I0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0
+ODVdfQ==
 -->
