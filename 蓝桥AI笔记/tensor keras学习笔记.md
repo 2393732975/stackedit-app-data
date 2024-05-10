@@ -79,8 +79,10 @@ model.add(Dense(units=1))
 
 ![输入图片说明](/imgs/2024-05-10/U5qD7QP5MChnU6gt.png)
 
-解决b'n
+解决办法：
+1. 增大数据集
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1Njg1OTQyLDE0MjQ1NTIzNjMsMTM5Mz
-UzMTY3NCw1ODUyNjE2MDAsLTI5ODY2NjQ4NV19
+eyJoaXN0b3J5IjpbMTM4MjY4NzYwNCwxNDI0NTUyMzYzLDEzOT
+M1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0ODVdfQ==
 -->
