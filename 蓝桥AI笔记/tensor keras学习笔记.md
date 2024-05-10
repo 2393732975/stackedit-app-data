@@ -60,8 +60,11 @@ model.add(Dense(units=1))
 ```
 >第三：sgd优化器得换成其他的，如adam，或者改变学习率
 
+## 交叉熵损失函数
+如果输出神经元是线性的，那么二次代价函数就是一种合适的选择。如果输出神经元是S型函数，那么比较适合用交又熵代价函数。
 
+常与sigmod函数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzUzMTY3NCw1ODUyNjE2MDAsLTI5OD
-Y2NjQ4NV19
+eyJoaXN0b3J5IjpbLTc5MDA4NzQ0MiwxMzkzNTMxNjc0LDU4NT
+I2MTYwMCwtMjk4NjY2NDg1XX0=
 -->
