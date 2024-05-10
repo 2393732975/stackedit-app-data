@@ -63,8 +63,16 @@ model.add(Dense(units=1))
 ## 交叉熵损失函数
 如果输出神经元是线性的，那么二次代价函数（均方误差：mse）就是一种合适的选择。如果输出神经元是S型函数，那么比较适合用交叉熵代价函数。
 
-常与sigmod函数
+分类：
+
+>loss='binary_crossentropy'：
+
+二分类交叉熵损失函数适用于二分类问题，其中目标标签只有两个类别。这种情况下，输出层通常使用 sigmoid 激活函数，输出范围在 0 到 1 之间，代表了某一类别的概率。二分类交叉熵损失函数通常更适合于处理这种类型的输出。
+
+loss='categorical_crossentropy'：
+
+多分类交叉熵损失函数适用于多分类问题，其中目标标签有多个类别。这种情况下，输出层通常使用 softmax 激活函数，输出向量的每个元素表示每个类别的概率。多分类交叉熵损失函数能够更好地处理多类别输出的情况，并且与 softmax 激活函数配合使用，更适合于训练多分类问题的神经网络模型。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDQ1NDQyLDEzOTM1MzE2NzQsNTg1Mj
-YxNjAwLC0yOTg2NjY0ODVdfQ==
+eyJoaXN0b3J5IjpbLTg1NTgxMDIwMywxMzkzNTMxNjc0LDU4NT
+I2MTYwMCwtMjk4NjY2NDg1XX0=
 -->
