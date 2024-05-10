@@ -84,8 +84,10 @@ model.add(Dense(units=1))
 ![输入图片说明](/imgs/2024-05-10/BBnEzGwz6PsNZO65.png)
 
 2. eraly stopping 
+![输入图片说明](/imgs/2024-05-10/ernDhVAZMor8tDAv.png)
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI4NzU1NTYsMTc2NjgxMTI0MiwxND
-I0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0
-ODVdfQ==
+eyJoaXN0b3J5IjpbLTgwMTAyMDc2NSwxNzY2ODExMjQyLDE0Mj
+Q1NTIzNjMsMTM5MzUzMTY3NCw1ODUyNjE2MDAsLTI5ODY2NjQ4
+NV19
 -->
