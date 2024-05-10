@@ -74,8 +74,11 @@ model.add(Dense(units=1))
 多分类交叉熵损失函数适用于多分类问题，其中目标标签有多个类别。这种情况下，输出层通常使用 softmax 激活函数，输出向量的每个元素表示每个类别的概率。多分类交叉熵损失函数能够更好地处理多类别输出的情况，并且与 softmax 激活函数配合使用，更适合于训练多分类问题的神经网络模型。
 
 
-## N
+## 拟合
+![输入图片说明](/imgs/2024-05-10/ICDPbjCoAapCR0iQ.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODkxODE4MywxNDI0NTUyMzYzLDEzOT
+eyJoaXN0b3J5IjpbMTExMDMzNzI2NCwxNDI0NTUyMzYzLDEzOT
 M1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0ODVdfQ==
 -->
