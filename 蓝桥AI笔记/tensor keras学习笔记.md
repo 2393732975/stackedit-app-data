@@ -107,11 +107,11 @@ from keras.layers import Dropout
 from keras.regularizers import l2
 # 两种：l1和l2
 ```
-
+![输入图片说明](/imgs/2024-05-10/fCZ5LwRpfznb11Ns.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxOTE2NzA3LDQ2MTgwMjI5NCwxNzY2OD
-ExMjQyLDE0MjQ1NTIzNjMsMTM5MzUzMTY3NCw1ODUyNjE2MDAs
-LTI5ODY2NjQ4NV19
+eyJoaXN0b3J5IjpbMTQ3NTU0MzQzOCw0NjE4MDIyOTQsMTc2Nj
+gxMTI0MiwxNDI0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAw
+LC0yOTg2NjY0ODVdfQ==
 -->
