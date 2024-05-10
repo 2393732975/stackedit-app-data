@@ -89,13 +89,14 @@ model.add(Dense(units=1))
 ![输入图片说明](/imgs/2024-05-10/FG91cqMcUWSqfI8C.png)
 训练的时候随机关掉一些神经元
 
+
 4. 正则化
 ![输入图片说明](/imgs/2024-05-10/XqXKL2LjfGXiJBdY.png)
 L2正则化用得多
 “拉莫大”对模型的影响
 ![输入图片说明](/imgs/2024-05-10/XR2gG6mc7zdar9iN.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxODAyMjk0LDE3NjY4MTEyNDIsMTQyND
-U1MjM2MywxMzkzNTMxNjc0LDU4NTI2MTYwMCwtMjk4NjY2NDg1
-XX0=
+eyJoaXN0b3J5IjpbLTE0MTk0NzQ0MjQsNDYxODAyMjk0LDE3Nj
+Y4MTEyNDIsMTQyNDU1MjM2MywxMzkzNTMxNjc0LDU4NTI2MTYw
+MCwtMjk4NjY2NDg1XX0=
 -->
