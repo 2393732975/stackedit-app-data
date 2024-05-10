@@ -92,10 +92,10 @@ model.add(Dense(units=1))
 4. 正则化
 ![输入图片说明](/imgs/2024-05-10/XqXKL2LjfGXiJBdY.png)
 L2正则化用得多
-
-
+“拉莫大”对模型的影响
+![输入图片说明](/imgs/2024-05-10/XR2gG6mc7zdar9iN.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDEyMDA5MjIsMTc2NjgxMTI0MiwxND
-I0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0
-ODVdfQ==
+eyJoaXN0b3J5IjpbNDYxODAyMjk0LDE3NjY4MTEyNDIsMTQyND
+U1MjM2MywxMzkzNTMxNjc0LDU4NTI2MTYwMCwtMjk4NjY2NDg1
+XX0=
 -->
