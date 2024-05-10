@@ -77,8 +77,10 @@ model.add(Dense(units=1))
 ## 拟合
 ![输入图片说明](/imgs/2024-05-10/ICDPbjCoAapCR0iQ.png)
 
+![输入图片说明](/imgs/2024-05-10/U5qD7QP5MChnU6gt.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDMzNzI2NCwxNDI0NTUyMzYzLDEzOT
+eyJoaXN0b3J5IjpbMTkyNjkwNjM3MywxNDI0NTUyMzYzLDEzOT
 M1MzE2NzQsNTg1MjYxNjAwLC0yOTg2NjY0ODVdfQ==
 -->
