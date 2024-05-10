@@ -97,11 +97,17 @@ L2正则化用得多
 ![输入图片说明](/imgs/2024-05-10/XR2gG6mc7zdar9iN.png)
 
 dropout 应用：（下图中为关掉40%的神经元）
+```
+from keras.layers import Dropout
+```
 ![输入图片说明](/imgs/2024-05-10/TDlgdARfxlF9Ba7m.png)
+
+正则化应用：
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU5NzU0MDAsNDYxODAyMjk0LDE3Nj
-Y4MTEyNDIsMTQyNDU1MjM2MywxMzkzNTMxNjc0LDU4NTI2MTYw
-MCwtMjk4NjY2NDg1XX0=
+eyJoaXN0b3J5IjpbMTg2NzEyMzM1MCw0NjE4MDIyOTQsMTc2Nj
+gxMTI0MiwxNDI0NTUyMzYzLDEzOTM1MzE2NzQsNTg1MjYxNjAw
+LC0yOTg2NjY0ODVdfQ==
 -->
