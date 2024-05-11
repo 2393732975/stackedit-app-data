@@ -1,18 +1,7 @@
 
-# 考试
-SGD
-Adagrad
-Adadelta
-RMSprop
-Adam
-Adamax
-Nadam
-TFOptimizer
+# 考试范围
 
-## 梯度下降法
-![输入图片说明](/imgs/2024-05-11/YXnETDJxquBnkdyS.png)
-
-
+![输入图片说明](/imgs/2024-05-11/eG44AUy0nRJHuYyJ.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTUzMTUyNiwtNDM2NTM0MzZdfQ==
+eyJoaXN0b3J5IjpbNjAyMzg2MTQsLTQzNjUzNDM2XX0=
 -->
