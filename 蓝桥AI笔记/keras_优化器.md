@@ -1,5 +1,5 @@
 
-# 优化器
+# 考试
 SGD
 Adagrad
 Adadelta
@@ -14,5 +14,5 @@ TFOptimizer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjUzNDM2XX0=
+eyJoaXN0b3J5IjpbMTczNTUzMTUyNiwtNDM2NTM0MzZdfQ==
 -->
