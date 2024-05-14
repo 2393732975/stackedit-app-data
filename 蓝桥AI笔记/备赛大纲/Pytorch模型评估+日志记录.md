@@ -7,6 +7,9 @@
 ```python
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
+all_labels = []
+all_predictions = []
+
 with torch.no_grad():
 	for text, label in iterator:
 	outputs = model(text.transpose(0, 1))
@@ -37,5 +40,6 @@ with open('training.log', 'w') as log_file:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MjQxMzY0LDE0MDQwMTg3NzVdfQ==
+eyJoaXN0b3J5IjpbNDM0NTM4NzU3LDg2OTI0MTM2NCwxNDA0MD
+E4Nzc1XX0=
 -->
