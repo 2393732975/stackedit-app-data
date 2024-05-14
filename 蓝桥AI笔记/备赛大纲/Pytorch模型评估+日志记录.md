@@ -3,7 +3,8 @@
 
 步骤：
 1. 禁止自动求导
-2. 将模型设置为pin'gu
+2. 将模型设置为评估模式
+3. 
 ```python
 # 禁用自动求导
 with torch.no_grad():
@@ -33,5 +34,5 @@ with torch.no_grad():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTY5MzU1Ml19
+eyJoaXN0b3J5IjpbMTQwNDAxODc3NV19
 -->
