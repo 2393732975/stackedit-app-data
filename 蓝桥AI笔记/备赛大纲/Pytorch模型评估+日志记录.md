@@ -12,16 +12,18 @@ all_predictions = []
 
 with torch.no_grad():
 	for text, label in iterator:
-	outputs = model(text.transpose(0, 1))
-	loss = criterion(outputs, label)
-	total_loss += loss.item()
-	_, predicted = torch.max(outputs.data, 1)
+		outputs = model(text.transpose(0, 1))
+		loss = criterion(outputs, label)
+		total_loss += loss.item()
+		_, predicted = torch.max(outputs.data, 1)
+		all_labels.extend(label.cpu().numpy())
+		all_predictions.extend(predicted.cpu().numpy())
 	
-	accuracy = accuracy_score(label,predicted )
-	precision = precision_score(label,predicted )
-	recall = recall_score(label,predicted )
-	f1 = f1_score(label,predicted )
-	
+accuracy = accuracy_score(all_labels, all_predictions)
+precision = precision_score(all_labels, all_predictions, average='binary')
+recall = recall_score(all_labels, all_predictions, average='binary')
+f1 = f1_score(all_labels, all_predictions, average='binary')
+
 return total_loss / len(iterator), accuracy, precision, recall, f1
 
 # 写日志文件
@@ -40,6 +42,6 @@ with open('training.log', 'w') as log_file:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0NTM4NzU3LDg2OTI0MTM2NCwxNDA0MD
-E4Nzc1XX0=
+eyJoaXN0b3J5IjpbLTE3MzUxNDcxNSw4NjkyNDEzNjQsMTQwND
+AxODc3NV19
 -->
