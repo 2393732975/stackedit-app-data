@@ -20,9 +20,22 @@ with torch.no_grad():
 	f1 = f1_score(label,predicted )
 	
 return total_loss / len(iterator), accuracy, precision, recall, f1
+
+# 写日志文件
+with open('training.log', 'w') as log_file:
+	
+	for epoch in trange(NUM_EPOCHS):
+		train_loss = train(model, train_loader, criterion, optimizer)
+		val_loss, val_accuracy, precision, recall, f1 = evaluate(model, val_loader, criterion)
+
+		# 按照指定格式记录日志
+		log_file.write(f"Epoch: {epoch + 1}\n")
+		log_file.write(f"Train Loss: {train_loss:.3f}\n")
+		log_file.write(f"Val Loss: {val_loss:.3f} | Val Accuracy: {val_accuracy * 100:.2f}% | Precision: {precision:.3f} | Recall: {recall:.3f} | F1: {f1:.3f}\n")
+		log_file.flush() # 确保内容立即写入文件
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0NDU2NTk1LDE0MDQwMTg3NzVdfQ==
+eyJoaXN0b3J5IjpbODY5MjQxMzY0LDE0MDQwMTg3NzVdfQ==
 -->
