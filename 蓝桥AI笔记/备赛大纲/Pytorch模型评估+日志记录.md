@@ -4,35 +4,25 @@
 步骤：
 1. 禁止自动求导
 2. 将模型设置为评估模式
-3. 
 ```python
-# 禁用自动求导
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
+
 with torch.no_grad():
-    # 将模型设置为评估模式
-    model.eval()
-
-    # 使用模型对数据进行预测
-    outputs = model(inputs)
-
-    # 计算损失
-    loss = criterion(outputs, labels)
-
-    # 计算准确率
-    accuracy = torch.nn.functional.accuracy(outputs, labels)
-
-    # 计算精度、召回率和 F1 值
-    precision = sklearn.metrics.precision_score(labels, outputs)
-    recall = sklearn.metrics.recall_score(labels, outputs)
-    f1 = sklearn.metrics.f1_score(labels, outputs)
-    # 输出指标值
-    print("Loss:", loss.item())
-    print("Accuracy:", accuracy.item())
-    print("Precision:", precision)
-    print("Recall:", recall)
-    print("F1:", f1)
+	for text, label in iterator:
+	outputs = model(text.transpose(0, 1))
+	loss = criterion(outputs, label)
+	total_loss += loss.item()
+	_, predicted = torch.max(outputs.data, 1)
+	
+	accuracy = accuracy_score(label,predicted )
+	precision = precision_score(label,predicted )
+	recall = recall_score(label,predicted )
+	f1 = f1_score(label,predicted )
+	
+return total_loss / len(iterator), accuracy, precision, recall, f1
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDAxODc3NV19
+eyJoaXN0b3J5IjpbNTM0NDU2NTk1LDE0MDQwMTg3NzVdfQ==
 -->
