@@ -141,9 +141,9 @@ knn_grid.best_params_, knn_grid.best_score_
 -   没有理论来指导我们如何选择邻居数，故而只能进行网格搜索（尽管基本上所有的模型，在对其超参数进行调整时都使用网格搜索的方法）。在邻居数较小的情形下，该方法对离散值很敏感，也就是说，有过拟合的倾向。
 -   由于「维度的诅咒」，当数据集存在很多特征时它的表现不佳。
 
-示例：
 
-### 决策树
+
+### 示例
 
 ```
 # 导入所需的库
@@ -196,5 +196,5 @@ sklearn.tree.DecisionTreeClassifier 类的主要参数为：
 
 树的参数需要根据输入数据设定，通常通过交叉验证可以确定参数范围，下文会具体讨论交叉验证。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTkzODMwN119
+eyJoaXN0b3J5IjpbLTE4NjAzMDU2MTFdfQ==
 -->
